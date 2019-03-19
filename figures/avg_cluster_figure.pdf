@@ -1,0 +1,1080 @@
+": 1057131,
+      "version": "4.1.2"
+    },
+    "ipython-4.1.2-py35_1.tar.bz2": {
+      "build": "py35_1",
+      "build_number": 1,
+      "date": "2016-03-16",
+      "depends": [
+        "decorator",
+        "pickleshare",
+        "pyreadline",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets"
+      ],
+      "license": "BSD",
+      "md5": "645f42eec99a4f49ef9f37befeb91ca4",
+      "name": "ipython",
+      "size": 1057035,
+      "version": "4.1.2"
+    },
+    "ipython-4.2.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2016-04-21",
+      "depends": [
+        "decorator",
+        "get_terminal_size",
+        "pickleshare",
+        "pyreadline",
+        "python 2.7*",
+        "simplegeneric >0.8",
+        "traitlets"
+      ],
+      "license": "BSD",
+      "md5": "de34df9eb9a18eda63379281317e84aa",
+      "name": "ipython",
+      "size": 1004676,
+      "version": "4.2.0"
+    },
+    "ipython-4.2.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2016-04-21",
+      "depends": [
+        "decorator",
+        "get_terminal_size",
+        "pickleshare",
+        "pyreadline",
+        "python 3.4*",
+        "simplegeneric >0.8",
+        "traitlets"
+      ],
+      "license": "BSD",
+      "md5": "5bcd96bb8afb03f1f8128cad5db3d5ef",
+      "name": "ipython",
+      "size": 1061172,
+      "version": "4.2.0"
+    },
+    "ipython-4.2.0-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "date": "2016-04-21",
+      "depends": [
+        "decorator",
+        "get_terminal_size",
+        "pickleshare",
+        "pyreadline",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets"
+      ],
+      "license": "BSD",
+      "md5": "a5b2390d00089cc1788d7b9c7eca009a",
+      "name": "ipython",
+      "size": 1057592,
+      "version": "4.2.0"
+    },
+    "ipython-5.0.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2016-07-12",
+      "depends": [
+        "colorama",
+        "decorator",
+        "get_terminal_size",
+        "pathlib2",
+        "pickleshare",
+        "prompt_toolkit >=1.0.3,<2.0.0",
+        "pygments",
+        "python 2.7*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "34d0036e29637bb02e398237389f929b",
+      "name": "ipython",
+      "size": 1010870,
+      "version": "5.0.0"
+    },
+    "ipython-5.0.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2016-07-12",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.3,<2.0.0",
+        "pygments",
+        "python 3.4*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "e0cf4e7504ee428b817dae9461c23b32",
+      "name": "ipython",
+      "size": 1066069,
+      "version": "5.0.0"
+    },
+    "ipython-5.0.0-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "date": "2016-07-12",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.3,<2.0.0",
+        "pygments",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "a90d6a309c3852b90d1b2d3235fab16c",
+      "name": "ipython",
+      "size": 1062821,
+      "version": "5.0.0"
+    },
+    "ipython-5.1.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2016-08-14",
+      "depends": [
+        "colorama",
+        "decorator",
+        "get_terminal_size",
+        "pathlib2",
+        "pickleshare",
+        "prompt_toolkit >=1.0.3,<2.0.0",
+        "pygments",
+        "python 2.7*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "bd63c12e301baae29a45dae70c0b46ab",
+      "name": "ipython",
+      "size": 1014752,
+      "version": "5.1.0"
+    },
+    "ipython-5.1.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2016-08-14",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.3,<2.0.0",
+        "pygments",
+        "python 3.4*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "a57951105ba3402f95321b8cc0d6e9a5",
+      "name": "ipython",
+      "size": 1070652,
+      "version": "5.1.0"
+    },
+    "ipython-5.1.0-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "date": "2016-08-14",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.3,<2.0.0",
+        "pygments",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "9147af1973e99fd542d59bcb200619a6",
+      "name": "ipython",
+      "size": 1066734,
+      "version": "5.1.0"
+    },
+    "ipython-5.1.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "date": "2016-12-23",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.3,<2.0.0",
+        "pygments",
+        "python 3.6*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "02e831306868adc05952d8602f29a4e7",
+      "name": "ipython",
+      "size": 1081956,
+      "version": "5.1.0"
+    },
+    "ipython-5.2.2-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2017-02-15",
+      "depends": [
+        "colorama",
+        "decorator",
+        "get_terminal_size",
+        "pathlib2",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 2.7*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "a67191478f5eb61a3ee4f469ebf0c42c",
+      "name": "ipython",
+      "size": 1053229,
+      "version": "5.2.2"
+    },
+    "ipython-5.2.2-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "date": "2017-02-15",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "99addd28b6fec52412227fc9dd09511d",
+      "name": "ipython",
+      "size": 1101538,
+      "version": "5.2.2"
+    },
+    "ipython-5.2.2-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "date": "2017-02-15",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.6*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD",
+      "md5": "fdfc1f6190d254560058cac49858633e",
+      "name": "ipython",
+      "size": 1087648,
+      "version": "5.2.2"
+    },
+    "ipython-5.3.0-py27_0.tar.bz2": {
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2017-02-24",
+      "depends": [
+        "colorama",
+        "decorator",
+        "get_terminal_size",
+        "pathlib2",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 2.7*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "12e26ddaf38c71de45fa2870066e19a7",
+      "name": "ipython",
+      "size": 1053291,
+      "version": "5.3.0"
+    },
+    "ipython-5.3.0-py34_0.tar.bz2": {
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2017-08-02",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.4*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "20fd73ebb2055305e7e4763e2b0e0946",
+      "name": "ipython",
+      "size": 1081068,
+      "version": "5.3.0"
+    },
+    "ipython-5.3.0-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "date": "2017-02-24",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "7c851679cc4706f9d7ede9db90711e98",
+      "name": "ipython",
+      "size": 1103578,
+      "version": "5.3.0"
+    },
+    "ipython-5.3.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "date": "2017-02-24",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.6*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD",
+      "md5": "929bfd78ad4d2ec86de4086519c55ee5",
+      "name": "ipython",
+      "size": 1090473,
+      "version": "5.3.0"
+    },
+    "ipython-6.0.0-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "date": "2017-04-21",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "eacdb81ce38f11f9c795720e933ee947",
+      "name": "ipython",
+      "size": 1091578,
+      "version": "6.0.0"
+    },
+    "ipython-6.0.0-py35_1.tar.bz2": {
+      "build": "py35_1",
+      "build_number": 1,
+      "date": "2017-05-10",
+      "depends": [
+        "colorama",
+        "decorator",
+        "jedi >=0.10",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "6ec6b205382119f1b4ec4f3eee57dd80",
+      "name": "ipython",
+      "size": 1090212,
+      "version": "6.0.0"
+    },
+    "ipython-6.0.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "date": "2017-04-21",
+      "depends": [
+        "colorama",
+        "decorator",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.6*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD",
+      "md5": "91a0dd1b417c6b793c9562ba50c27de6",
+      "name": "ipython",
+      "size": 1080418,
+      "version": "6.0.0"
+    },
+    "ipython-6.0.0-py36_1.tar.bz2": {
+      "build": "py36_1",
+      "build_number": 1,
+      "date": "2017-05-10",
+      "depends": [
+        "colorama",
+        "decorator",
+        "jedi >=0.10",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.6*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD",
+      "md5": "062d26bd6fc7f2c8d5aec1e85180c206",
+      "name": "ipython",
+      "size": 1081475,
+      "version": "6.0.0"
+    },
+    "ipython-6.1.0-py35_0.tar.bz2": {
+      "build": "py35_0",
+      "build_number": 0,
+      "date": "2017-06-02",
+      "depends": [
+        "colorama",
+        "decorator",
+        "jedi >=0.10",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.5*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2",
+        "win_unicode_console >=0.5"
+      ],
+      "license": "BSD",
+      "md5": "a4635a68dc91ed226b2c2228fb1a1b30",
+      "name": "ipython",
+      "size": 1075342,
+      "version": "6.1.0"
+    },
+    "ipython-6.1.0-py36_0.tar.bz2": {
+      "build": "py36_0",
+      "build_number": 0,
+      "date": "2017-06-02",
+      "depends": [
+        "colorama",
+        "decorator",
+        "jedi >=0.10",
+        "pickleshare",
+        "prompt_toolkit >=1.0.4,<2.0.0",
+        "pygments",
+        "python 3.6*",
+        "simplegeneric >0.8",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD",
+      "md5": "72254af66ebb92b3d75602bfd033681d",
+      "name": "ipython",
+      "size": 1060087,
+      "version": "6.1.0"
+    },
+    "ipython-notebook-0.13.2-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2013-06-21",
+      "depends": [
+        "ipython 0.13.2",
+        "python 2.7*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license_family": "BSD",
+      "md5": "7d8e9f09be79bf68cff5477345527375",
+      "name": "ipython-notebook",
+      "size": 839,
+      "version": "0.13.2"
+    },
+    "ipython-notebook-1.0.0-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2013-09-04",
+      "depends": [
+        "ipython 1.0.0",
+        "python 2.7*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license_family": "BSD",
+      "md5": "82f4d3a4f5c54235c3d39edc09e27029",
+      "name": "ipython-notebook",
+      "size": 849,
+      "version": "1.0.0"
+    },
+    "ipython-notebook-1.1.0-py26_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py26_0",
+      "build_number": 0,
+      "date": "2013-10-27",
+      "depends": [
+        "ipython 1.1.0",
+        "jinja2",
+        "python 2.6*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license_family": "BSD",
+      "md5": "804c6817c872738c5f74d8156184ab01",
+      "name": "ipython-notebook",
+      "size": 817,
+      "version": "1.1.0"
+    },
+    "ipython-notebook-1.1.0-py26_1.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py26_1",
+      "build_number": 1,
+      "date": "2014-01-31",
+      "depends": [
+        "ipython 1.1.0",
+        "jinja2",
+        "python 2.6*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "486f2c2898624a9877c53c215bb059ad",
+      "name": "ipython-notebook",
+      "size": 855,
+      "version": "1.1.0"
+    },
+    "ipython-notebook-1.1.0-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2013-10-27",
+      "depends": [
+        "ipython 1.1.0",
+        "jinja2",
+        "python 2.7*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license_family": "BSD",
+      "md5": "4973da81c33c999f5f66c3e07f7e50ec",
+      "name": "ipython-notebook",
+      "size": 874,
+      "version": "1.1.0"
+    },
+    "ipython-notebook-1.1.0-py27_1.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_1",
+      "build_number": 1,
+      "date": "2014-01-31",
+      "depends": [
+        "ipython 1.1.0",
+        "jinja2",
+        "python 2.7*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "ecbf012fb3a943b9fc6d723040e9daa9",
+      "name": "ipython-notebook",
+      "size": 896,
+      "version": "1.1.0"
+    },
+    "ipython-notebook-1.1.0-py33_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py33_0",
+      "build_number": 0,
+      "date": "2013-10-27",
+      "depends": [
+        "ipython 1.1.0",
+        "jinja2",
+        "python 3.3*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license_family": "BSD",
+      "md5": "91eca06304eeacbef4ca61aec38e7531",
+      "name": "ipython-notebook",
+      "size": 811,
+      "version": "1.1.0"
+    },
+    "ipython-notebook-1.1.0-py33_1.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py33_1",
+      "build_number": 1,
+      "date": "2014-01-31",
+      "depends": [
+        "ipython 1.1.0",
+        "jinja2",
+        "python 3.3*",
+        "pyzmq 2.2.0.1",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "afc5bace72f1bb8c7a768e9c345c09f4",
+      "name": "ipython-notebook",
+      "size": 852,
+      "version": "1.1.0"
+    },
+    "ipython-notebook-2.0.0-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2014-05-15",
+      "depends": [
+        "ipython 2.0.0",
+        "jinja2",
+        "python 2.7*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "4ba080dfafc9871001cf8821ee144189",
+      "name": "ipython-notebook",
+      "size": 4857,
+      "version": "2.0.0"
+    },
+    "ipython-notebook-2.0.0-py33_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py33_0",
+      "build_number": 0,
+      "date": "2014-05-15",
+      "depends": [
+        "ipython 2.0.0",
+        "jinja2",
+        "python 3.3*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "d880b51626ba149d255c5355bc72a897",
+      "name": "ipython-notebook",
+      "size": 4780,
+      "version": "2.0.0"
+    },
+    "ipython-notebook-2.0.0-py34_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2014-05-15",
+      "depends": [
+        "ipython 2.0.0",
+        "jinja2",
+        "python 3.4*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "a039d6f8a6cd144feb335788bc25b3c0",
+      "name": "ipython-notebook",
+      "size": 4769,
+      "version": "2.0.0"
+    },
+    "ipython-notebook-2.1.0-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2014-05-27",
+      "depends": [
+        "ipython 2.1.0",
+        "jinja2",
+        "python 2.7*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "8c79fa5b8c3f7f2ea896c215f0d61310",
+      "name": "ipython-notebook",
+      "size": 4829,
+      "version": "2.1.0"
+    },
+    "ipython-notebook-2.1.0-py33_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py33_0",
+      "build_number": 0,
+      "date": "2014-05-27",
+      "depends": [
+        "ipython 2.1.0",
+        "jinja2",
+        "python 3.3*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "5682f0367c1ca65ef2b5164be72959ea",
+      "name": "ipython-notebook",
+      "size": 4831,
+      "version": "2.1.0"
+    },
+    "ipython-notebook-2.1.0-py34_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2014-05-27",
+      "depends": [
+        "ipython 2.1.0",
+        "jinja2",
+        "python 3.4*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "5a839d6ddb2bd476de3479046e43014b",
+      "name": "ipython-notebook",
+      "size": 4857,
+      "version": "2.1.0"
+    },
+    "ipython-notebook-2.2.0-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2014-08-25",
+      "depends": [
+        "ipython 2.2.0",
+        "jinja2",
+        "python 2.7*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "2be8065faf8a1b5d58269968606dcd59",
+      "name": "ipython-notebook",
+      "size": 4813,
+      "version": "2.2.0"
+    },
+    "ipython-notebook-2.2.0-py33_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py33_0",
+      "build_number": 0,
+      "date": "2014-08-25",
+      "depends": [
+        "ipython 2.2.0",
+        "jinja2",
+        "python 3.3*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "1458fe85d56ff38d8061dbb65aed3b4d",
+      "name": "ipython-notebook",
+      "size": 4866,
+      "version": "2.2.0"
+    },
+    "ipython-notebook-2.2.0-py34_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2014-08-25",
+      "depends": [
+        "ipython 2.2.0",
+        "jinja2",
+        "python 3.4*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "f47a4e073fa974b97dcd2f111903df50",
+      "name": "ipython-notebook",
+      "size": 4827,
+      "version": "2.2.0"
+    },
+    "ipython-notebook-2.3.0-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2014-10-03",
+      "depends": [
+        "ipython 2.3.0",
+        "jinja2",
+        "python 2.7*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "03d0a365b4b692fc21564f91c717ede6",
+      "name": "ipython-notebook",
+      "size": 4859,
+      "version": "2.3.0"
+    },
+    "ipython-notebook-2.3.0-py33_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py33_0",
+      "build_number": 0,
+      "date": "2014-10-03",
+      "depends": [
+        "ipython 2.3.0",
+        "jinja2",
+        "python 3.3*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "8dadb41fc918a354efe770f4a6dadc6f",
+      "name": "ipython-notebook",
+      "size": 4817,
+      "version": "2.3.0"
+    },
+    "ipython-notebook-2.3.0-py34_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py34_0",
+      "build_number": 0,
+      "date": "2014-10-03",
+      "depends": [
+        "ipython 2.3.0",
+        "jinja2",
+        "python 3.4*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "7540049af29e823eadc56abc987b06a4",
+      "name": "ipython-notebook",
+      "size": 4828,
+      "version": "2.3.0"
+    },
+    "ipython-notebook-2.3.1-py27_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py27_0",
+      "build_number": 0,
+      "date": "2014-11-13",
+      "depends": [
+        "ipython 2.3.1",
+        "jinja2",
+        "python 2.7*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "b2362fbf4460680f4f99240a70637766",
+      "name": "ipython-notebook",
+      "size": 4858,
+      "version": "2.3.1"
+    },
+    "ipython-notebook-2.3.1-py33_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "build": "py33_0",
+      "build_number": 0,
+      "date": "2014-11-13",
+      "depends": [
+        "ipython 2.3.1",
+        "jinja2",
+        "python 3.3*",
+        "pyzmq 14.*",
+        "tornado"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "955f17fc4f712a26348cba31c9bc67a6",
+      "name": "ipython-notebook",
+      "size": 4837,
+      "version": "2.3.1"
+    },
+    "ipython-notebook-2.3.1-py34_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": 8080,
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+  
