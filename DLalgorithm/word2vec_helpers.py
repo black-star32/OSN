@@ -9,6 +9,7 @@ def embedding_sentences(sentences, embedding_size=128, window=5, min_count=5, fi
     else:
         w2vModel = Word2Vec(sentences, size=embedding_size, window=window, min_count=min_count,
                             workers=multiprocessing.cpu_count())
+        # w2vModel = Word2Vec(sentences, min_count=1)
         if file_to_save is not None:
             w2vModel.save(file_to_save)
     all_vectors = []
@@ -19,8 +20,10 @@ def embedding_sentences(sentences, embedding_size=128, window=5, min_count=5, fi
         for word in sentence:
             if word in w2vModel.wv.vocab:
                 this_vector.append(w2vModel[word])
+                # this_vector.extend(w2vModel[word])
             else:
                 this_vector.append(embedding_unknown)
+                # this_vector.extend(embedding_unknown)
         all_vectors.append(this_vector)
     return all_vectors
 
