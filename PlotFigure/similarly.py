@@ -124,7 +124,7 @@ if __name__ == '__main__':
     plt.ylabel(u'CDF', fontsize=12, family='Times New Roman')
     plt.legend(loc='lower right')
     # plt.legend()
-    plt.savefig("D:/pycharm/PyCharm/projects/APT_OSN/figures/avg_cluster_figure.pdf")
+    plt.savefig(r"D:\pycharm\PyCharm 2018.3.2\projects\OSN\figures\avg_cluster_figure.pdf")
     plt.show()
 
     # positive_sample_list = sorted(positive_sample_list)
