@@ -12,7 +12,7 @@ import data_process
 import word2vec_helpers
 
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
-tf.flags.DEFINE_string("dir_cleaned_path", "/home/acm/WorkSpace/fengbo/weibo_fenlei/",
+tf.flags.DEFINE_string("dir_cleaned_path", "D:/data/weibo_dataset/cleaned_data/weibo_fenlei",
                     "Data source for the load_cleaned_data")
 tf.flags.DEFINE_integer("num_labels", 23, "Number of labels for data.")
 # Model hyperparameters

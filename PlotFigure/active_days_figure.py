@@ -80,8 +80,8 @@ def read_file(file_path):
     return lines
 
 if __name__ == '__main__':
-    file_path1 = "D:/data/weibo_dataset/sample/negative_active_days.txt"
-    file_path2 = "D:/data/weibo_dataset/sample/positive_active_days.txt"
+    file_path1 = r"D:\data\weibo_dataset\sample\negative_active_days.txt"
+    file_path2 = r"D:\data\weibo_dataset\sample\positive_active_days.txt"
     negative_sample_list = read_file(file_path1)
     positive_sample_list = read_file(file_path2)
 
@@ -115,7 +115,7 @@ if __name__ == '__main__':
     plt.ylabel(u'CDF', fontsize=12, family='Times New Roman')
     plt.legend(loc='lower right')
     # plt.legend()
-    plt.savefig("D:/pycharm/PyCharm/projects/APT_OSN/figures/active_days_figure.pdf")
+    plt.savefig(r"D:\pycharm\PyCharm 2018.3.2\projects\OSN\figures\active_days_figure.pdf")
     plt.show()
 
     positive_sample_list = sorted(positive_sample_list)

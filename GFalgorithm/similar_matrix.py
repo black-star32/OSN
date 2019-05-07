@@ -7,9 +7,12 @@ def readfile(filename):
         lines = f.readlines()
     return lines
 
-dir_path1 = "D:/pycharm/PyCharm 2017.2.3/Project/APT&OSN/data/original_data/follows/"
-dir_path2 = "D:/pycharm/PyCharm 2017.2.3/Project/APT&OSN/data/original_data/follows/follows/"
-dir_path3 = "D:/pycharm/PyCharm 2017.2.3/Project/APT&OSN/data/similarly/"
+# dir_path1 = "D:/pycharm/PyCharm 2017.2.3/Project/APT&OSN/data/original_data/follows/"
+# dir_path2 = "D:/pycharm/PyCharm 2017.2.3/Project/APT&OSN/data/original_data/follows/follows/"
+# dir_path3 = "D:/pycharm/PyCharm 2017.2.3/Project/APT&OSN/data/similarly/"
+dir_path1 = "D:/data/weibo_dataset/original_data/follows/"
+dir_path2 = "D:/data/weibo_dataset/original_data/follows/follows/"
+dir_path3 = "D:/data/weibo_dataset/similarly/"
 
 file_list1 = os.listdir(dir_path1)
 file_list2 = os.listdir(dir_path2)
