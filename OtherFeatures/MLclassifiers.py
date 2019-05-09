@@ -1,12 +1,14 @@
 import numpy as np
 import logging
 import matplotlib.pyplot as plt
+import seaborn as sn
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import roc_curve, auc
+from sklearn.metrics import roc_curve, auc, confusion_matrix, precision_score, f1_score, accuracy_score
+from prettytable import PrettyTable
 
 
 if __name__ == '__main__':
@@ -48,7 +50,89 @@ if __name__ == '__main__':
     # SVM
     svm_clf = svm.SVC(kernel='linear', C=1, probability=True).fit(data_train, data_train_label)
 
-    # 对Test数据进行预测
+    # 混淆矩阵图
+    # LR
+    test_labels_LR = lr_clf.predict(data_test.reshape(-1, 5))
+    print(confusion_matrix(data_test_label, test_labels_LR))
+    sn.heatmap(confusion_matrix(data_test_label, test_labels_LR), annot=True)
+    plt.show()
+    plt.clf()
+
+    # RF
+    test_labels_RF = rf_clf.predict(data_test.reshape(-1, 5))
+    print(confusion_matrix(data_test_label, test_labels_RF))
+    sn.heatmap(confusion_matrix(data_test_label, test_labels_RF), annot=True)
+    plt.show()
+    plt.clf()
+
+    # GBDT
+    test_labels_GBDT = gbdt_clf.predict(data_test.reshape(-1, 5))
+    print(confusion_matrix(data_test_label, test_labels_GBDT))
+    sn.heatmap(confusion_matrix(data_test_label, test_labels_GBDT), annot=True)
+    plt.show()
+    plt.clf()
+
+    # NB
+    test_labels_NB = nb_clf.predict(data_test.reshape(-1, 5))
+    print(confusion_matrix(data_test_label, test_labels_NB))
+    sn.heatmap(confusion_matrix(data_test_label, test_labels_NB), annot=True)
+    plt.show()
+    plt.clf()
+
+    # SVM
+    test_labels_SVM = svm_clf.predict(data_test.reshape(-1, 5))
+    print(confusion_matrix(data_test_label, test_labels_SVM))
+    sn.heatmap(confusion_matrix(data_test_label, test_labels_SVM), annot=True)
+    plt.show()
+    plt.clf()
+
+    # 统计表格
+    # LR
+    fpr1, tpr1, _ = roc_curve(data_test_label, test_labels_LR, pos_label=0)
+    precision1 = precision_score(data_test_label, test_labels_LR)
+    f1_score1 = f1_score(data_test_label, test_labels_LR)
+    accuracy_score1 = accuracy_score(data_test_label, test_labels_LR)
+    print(fpr1[1], tpr1[1], precision1, f1_score1, accuracy_score1)
+
+    # RF
+    fpr2, tpr2, _ = roc_curve(data_test_label, test_labels_RF, pos_label=0)
+    precision2 = precision_score(data_test_label, test_labels_RF)
+    f1_score2 = f1_score(data_test_label, test_labels_RF)
+    accuracy_score2 = accuracy_score(data_test_label, test_labels_RF)
+    print(fpr2[1], tpr2[1], precision2, f1_score2, accuracy_score2)
+
+    # GBDT
+    fpr3, tpr3, _ = roc_curve(data_test_label, test_labels_GBDT, pos_label=0)
+    precision3 = precision_score(data_test_label, test_labels_GBDT)
+    f1_score3 = f1_score(data_test_label, test_labels_GBDT)
+    accuracy_score3 = accuracy_score(data_test_label, test_labels_GBDT)
+    print(fpr3[1], tpr3[1], precision3, f1_score3, accuracy_score3)
+
+    # NB
+    fpr4, tpr4, _ = roc_curve(data_test_label, test_labels_NB, pos_label=0)
+    precision4 = precision_score(data_test_label, test_labels_NB)
+    f1_score4 = f1_score(data_test_label, test_labels_NB)
+    accuracy_score4 = accuracy_score(data_test_label, test_labels_NB)
+    print(fpr4[1], tpr4[1], precision4, f1_score4, accuracy_score4)
+
+    # SVM
+    fpr5, tpr5, _ = roc_curve(data_test_label, test_labels_SVM, pos_label=0)
+    precision5 = precision_score(data_test_label, test_labels_SVM)
+    f1_score5 = f1_score(data_test_label, test_labels_SVM)
+    accuracy_score5 = accuracy_score(data_test_label, test_labels_SVM)
+    print(fpr5[1], tpr5[1], precision5, f1_score5, accuracy_score5)
+
+    x = PrettyTable()
+    x.add_column("机器学习算法", ["LR", "RF", "GBDT", "NB", "SVM"])
+    x.add_column("TPR", [tpr1[1], tpr2[1], tpr3[1], tpr4[1], tpr5[1]])
+    x.add_column("FPR", [fpr1[1], fpr2[1], fpr3[1], fpr4[1], fpr5[1]])
+    x.add_column("Precision", [precision1, precision2, precision3, precision4, precision5])
+    x.add_column("F1_score", [f1_score1, f1_score2, f1_score3, f1_score4, f1_score5])
+    x.add_column("Accuracy", [accuracy_score1, accuracy_score2, accuracy_score3, accuracy_score4, accuracy_score5])
+    print(x)
+
+
+    # 对Test数据进行预测, ROC曲线图
     test_labels_LR = []
     test_labels_RF = []
     test_labels_GBDT = []
@@ -63,9 +147,10 @@ if __name__ == '__main__':
     # print(test_arrays[1])
     # res = classifier.predict_proba(test_arrays[1].reshape(-1, 100))
     # print(res)
+
     for i in range(len(data_test)):
         try:
-            print(i)
+            # print(i)
             temp_LR = lr_clf.predict_proba(data_test[i].reshape(-1, 5))
             test_labels_LR.append(temp_LR[0][0])
             temp_SVM = svm_clf.predict_proba(data_test[i].reshape(-1, 5))
