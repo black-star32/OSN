@@ -1,7 +1,8 @@
 import requests
 import json
 
-example_url = "https://m.weibo.cn/api/container/getIndex?containerid=231051_-_fans_-_3261134763&type=all&since_id="
+# example_url = "https://m.weibo.cn/api/container/getIndex?containerid=231051_-_fans_-_3261134763&type=all&since_id="
+example_url = "https://m.weibo.cn/api/container/getSecond?containerid=1005052271848313_-_FOLLOWERS&page=1"
 html = requests.get(example_url)
 json_response = html.content.decode()
 dict_json = json.loads(json_response)
