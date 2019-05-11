@@ -12,6 +12,8 @@ if __name__ == '__main__':
     D:\data\weibo_dataset\coefficients
     
     '''
+    # w_dir= r'D:\data\weibo_dataset\normalize_features3.txt'
+    # w_file = open(w_dir, 'w')
     dir_path = r'D:\data\weibo_dataset'
     active_days_file =  os.path.join(dir_path, 'active_days.txt')
     interaction_file = os.path.join(dir_path, 'interaction.txt')
@@ -78,6 +80,9 @@ if __name__ == '__main__':
     X_scaled = preprocessing.scale(X)
     print(X_scaled)
 
+    # for x in X_scaled:
+    #     w_file.write(x)
+    # w_file.close()
 
 
 
