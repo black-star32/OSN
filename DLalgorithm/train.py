@@ -17,9 +17,9 @@ tf.flags.DEFINE_string("dir_cleaned_path", "D:/data/weibo_dataset/cleaned_data/w
 tf.flags.DEFINE_integer("num_labels", 23, "Number of labels for data.")
 # Model hyperparameters
 # tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding")
-tf.flags.DEFINE_integer("embedding_dim", 16, "Dimensionality of character embedding")
+tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding")
 tf.flags.DEFINE_string("filter_sizes", "3,4,5", "Comma-spearated filter sizes (default: '3,4,5')")
-tf.flags.DEFINE_integer("num_filters", 16, "Number of filters per filter size (default: 128)")
+tf.flags.DEFINE_integer("num_filters", 128, "Number of filters per filter size (default: 128)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularization lambda (default: 0.0)")
 
