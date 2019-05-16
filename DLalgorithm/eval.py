@@ -19,7 +19,7 @@ tf.flags.DEFINE_string("input_label_file", "", "Label file for test text data so
 
 # Eval Parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-tf.flags.DEFINE_string("checkpoint_dir", "D:/pycharm/PyCharm 2018.3.2/projects/OSN/DLalgorithm/run/1557108827.1118798/checkpoints/", "Checkpoint directory from training run")
+tf.flags.DEFINE_string("checkpoint_dir", "D:/pycharm/PyCharm 2018.3.2/projects/OSN/DLalgorithm/run/1557995852.5313356/checkpoints/", "Checkpoint directory from training run")
 tf.flags.DEFINE_boolean("eval_train", True, "Evaluate on all training data")
 
 # Misc Parameters

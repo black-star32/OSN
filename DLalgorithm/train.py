@@ -16,15 +16,16 @@ tf.flags.DEFINE_string("dir_cleaned_path", "D:/data/weibo_dataset/cleaned_data/w
                     "Data source for the load_cleaned_data")
 tf.flags.DEFINE_integer("num_labels", 23, "Number of labels for data.")
 # Model hyperparameters
-tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding")
+# tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding")
+tf.flags.DEFINE_integer("embedding_dim", 16, "Dimensionality of character embedding")
 tf.flags.DEFINE_string("filter_sizes", "3,4,5", "Comma-spearated filter sizes (default: '3,4,5')")
-tf.flags.DEFINE_integer("num_filters", 128, "Number of filters per filter size (default: 128)")
+tf.flags.DEFINE_integer("num_filters", 16, "Number of filters per filter size (default: 128)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularization lambda (default: 0.0)")
 
 # Training paramters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-tf.flags.DEFINE_integer("num_epochs", 100, "Number of training epochs (default: 200)")
+tf.flags.DEFINE_integer("num_epochs", 10, "Number of training epochs (default: 200)")
 tf.flags.DEFINE_integer("evaluate_every", 100, "Evalue model on dev set after this many steps (default: 100)")
 tf.flags.DEFINE_integer("checkpoint_every", 100, "Save model after this many steps (defult: 100)")
 tf.flags.DEFINE_integer("num_checkpoints", 5, "Number of checkpoints to store (default: 5)")
@@ -60,7 +61,7 @@ sentences, max_document_lenth = data_process.padding_sentences(x_text, '补')
 # 将句子转化为向量
 # x = numpy.array(word2vec_helpers.embedding_sentences(sentences, embedding_size=FLAGS.embedding_dim,
 #                                                      file_to_load = 'trained_word2vec.model',
-#                                                      file_to_save=os.path.join(output_dir,'trained_word2vec.model')))
+#                                                      ))
 x = numpy.array(word2vec_helpers.embedding_sentences(sentences, embedding_size=FLAGS.embedding_dim,
                                                      file_to_save=os.path.join(output_dir,'trained_word2vec.model')))
 y = numpy.array(y)
